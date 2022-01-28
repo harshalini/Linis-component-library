@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+:root {
+    --darker-blue:  #0D1117;
+    --dark-blue: #161B22;
+    --blue: #6C63FF;
+    --white: #fff;
+    --btn-border: solid 2px var(--darker-blue);
+}
+* {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: var(--darker-blue);
+    color: var(--white);
+    font-size: 16px;
+}
+nav {
+    background-color: var(--dark-blue);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 999;
+}
+.nav-title i {
+    margin-right: auto;
+}
+.nav-pages {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+a {
+    flex-basis: 30%;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--white);
+}
+.nav-pages a {
+    border-bottom: solid 2px var(--white);
+}
+.nav-pages a:hover {
+    opacity: 50%;
+}
+header {
+    display: flex;
+    margin: 100px 25px 0px 25px;
+    color: var(--white);
+    justify-content: space-evenly;
+}
+img {
+    width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+}
+.home-header {
+    min-width: 250px;
+    margin: 50px 0;
+}
+.home-header p {
+    margin: auto 30px;
+    font-size: 1.3rem;
+    display: flex;
+}
+.container-links {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    background-color: var(--blue);
+    margin: 50px;
+    margin-left: 25px;
+    padding: 1rem;
+}
+.container-links a {
+    font-size: 1.3rem;
+    border-radius: 15px;
+}
+.container-links a:hover {
+    background-color: #7C83FD;
+    color: black;
+}
+.install-link {
+    border-right: var(--btn-border);
+}
+.feat-link {
+    border-left: var(--btn-border);
+}
+.container{
+    border: solid 2px var(--blue);
+    text-align: center;
+    align-content: center;
+    width: 85vw;
+    margin: 70px auto 50px auto;
+    border-radius: 30px;
+    font-size: 20px;
+    box-shadow: var(--blue) 0px 54px 55px, var(--blue) 0px -12px 30px, var(--blue) 0px 4px 6px, var(--blue) 0px 12px 13px, var(--blue) 0px -3px 5px;
+}
+.block-header {
+    font-size: 2rem;
+    margin-top: 70px;
+    font-style: italic;
+}
+.iframe-container {
+        position: relative;
+    }
+iframe {
+    display: block;
+    margin: 20px auto 20px auto;
+    position: relative;
+    z-index: 997;
+}
+#features {
+    margin-top: 90px;
+    margin-bottom: 120px;
+    padding-bottom: 2rem;
+}
+.features-adv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.features-adv label {
+    font-size: 2rem;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+}
+label i {
+    font-size: 4rem;
+}
+footer {
+    background-color: var(--dark-blue);
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    width: 100vw;
+    z-index: 998;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.social-links {
+    display: flex;
+    z-index: 1000;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.social-links a {
+    font-size: 1.5rem;
+}
+.social-links a:hover {
+    opacity: 50%;
+}
+footer img {
+    width: 100px;
+   height: 100px;
+   margin: auto;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:767px) {
+    body {
+        font-size: 14px;
+    }
+    nav {
+        height: 80px;
+        font-size: 24px;
+        margin-left: -8%;
+    }
+    .nav-pages {
+        font-size: 18px;
+    }
+    header {
+        flex-direction: column;
+    }
+    .art-img {
+        margin: auto;
+    }
+    header img {
+        height: 300px;
+        width: 300px;
+    }
+    .home-header .head {
+        font-size: 2.5rem;
+    }
+    .ui-title img {
+        width: 25%;
+        height: 25%;
+        margin-top: 20px;
+    }
+    .home-header p {
+        font-size: 18px;
+    }
+    .container {
+        font-size: 18px;
+    }
+    .features-adv, .features-adv label {
+        flex-direction: column;
+        font-size: 18px;
+        gap: 10px;
+    }
+    label i {
+        font-size: 40px;
+    }
+    footer p {
+        flex-basis: 25%;
+    }
+    .container-links {
+        margin: 20px auto;
+    }
+}
