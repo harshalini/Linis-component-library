@@ -1,0 +1,72 @@
+@import url(../style.css);
+@import url(../components/avatar/avatar.css);
+
+:root {
+    --darker-blue:  #0D1117;
+    --dark-blue: #161B22;
+    --blue: #6C63FF;
+    --white: #fff;
+    --btn-border: solid 2px var(--darker-blue);
+}
+
+.components-container {
+    display: grid;
+    grid-template-columns: 20vw 1fr;
+    margin: auto;
+    z-index: 1001;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    top: 5rem;
+    height: 100vh;
+    padding: 1rem;
+    position: fixed;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 15vw;
+}
+li {
+    background-color: var(--blue);
+    margin-left: 10px;
+    flex-basis: 10%;
+    transition: .5s ease;
+}
+li:hover {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 480px){
+    .components-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        grid-template-columns: 0 1fr;
+    }
+    ul {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 50px 50px;
+        column-gap: -10%;
+        row-gap: -20px;
+        font-size: 16px;
+        background-color: var(--blue);
+        height: 74px;
+        width: 100vw;
+    }
+    li {
+        background-color: var(--blue);
+        height: 5vh;
+        padding: 0;
+        margin-left: -10%;
+        border: solid 1.5px var(--darker-blue);
+        width: 70px;
+    }
+    li:hover {
+        background-color: var(--dark-blue);
+        color: var(--white);
+    }
+}

@@ -1,0 +1,48 @@
+#avatar-div {
+    margin: 2rem;
+    margin-top: 6rem;
+}
+h1 {
+    text-align: center;
+}
+.avatars {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.avatar {
+    margin: 2rem;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+}
+.avatar-people {
+    margin-top: 10px;
+}
+.avatar-people img {
+    border: solid 2px white;
+    border-radius: 50%;
+}
+.fas {
+    font-size: 3rem;
+}
+.avatar-coloured {
+    background: #FF7A59;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.avatar-coloured p {
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);z-index: 990;
+}
+@media screen and (max-width: 480px){
+    .components-list {
+        background-color: orange;
+    }
+    #avatar-div {
+        margin: auto;
+        margin-top: 13rem;
+    }
+}
