@@ -29,7 +29,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    z-index: 999;
+    z-index: 4;
 }
 .nav-title i {
     margin-right: auto;
@@ -115,7 +115,7 @@ iframe {
     display: block;
     margin: 20px auto 20px auto;
     position: relative;
-    z-index: 997;
+    z-index: 2;
 }
 #features {
     margin-top: 5.5rem;
@@ -143,14 +143,14 @@ footer {
     bottom: 0;
     padding: 1rem;
     width: 100vw;
-    z-index: 998;
+    z-index: 3;
     height: 2rem;
     display: flex;
     justify-content: center;
 }
 .social-links {
     display: flex;
-    z-index: 1000;
+    z-index: 5;
     margin-left: 20px;
     justify-content: center;
     align-items: center;

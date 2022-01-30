@@ -1,6 +1,6 @@
 #avatar-div {
     margin: 2rem;
-    margin-top: 6rem;
+    margin-top: 0rem;
 }
 h1 {
     text-align: center;
@@ -38,11 +38,8 @@ h1 {
     transform: translate(-50%, -50%);z-index: 990;
 }
 @media screen and (max-width: 480px){
-    .components-list {
-        background-color: orange;
-    }
     #avatar-div {
         margin: auto;
-        margin-top: 13rem;
+        margin-top: 0rem;
     }
 }
