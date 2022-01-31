@@ -1,0 +1,81 @@
+:root {
+    --darker-blue: #0D1117;
+    --dark-blue: #161B22;
+    --blue: #6C63FF;
+    --white: #fff;
+    --btn-border: solid 2px var(--darker-blue);
+}
+.ui-component button {
+    margin: 1rem;
+    padding: 0.7rem 1.2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+#primary-btn {
+    background-color: var(--blue);
+    color: var(--white);
+    border: solid 2px black;
+}
+#primary-btn:hover {
+    background-color: #7C83FD;
+    color: black;
+}
+#secondary-btn {
+    background: none;
+    color: var(--blue);
+    border: solid 2px var(--blue);
+}
+#secondary-btn:hover {
+    background-color: var(--blue);
+    color: var(--darker-blue);   
+}
+
+.a-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-btn {
+    flex-wrap: wrap;
+}
+.btn {
+    background-color: var(--white);
+    color: var(--blue);
+    border: solid 2px var(--blue);
+    font-weight: 700;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.btn i {
+    color: var(--dark-blue);
+}
+.call-icon, .pay-icon {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+.bell-icon {
+    font-size: 1.5rem;
+}
+.round-btn {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: solid 2px white;
+    transition: 0.5s;
+}
+.round-btn i {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round-btn:hover {
+   background-color: var(--white);
+   color: var(--blue);
+}
