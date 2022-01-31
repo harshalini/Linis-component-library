@@ -7,7 +7,12 @@
     --white: #fff;
     --btn-border: solid 2px var(--darker-blue);
 }
-
+nav {
+    font-size: 2rem;
+}
+.nav-title i {
+    font-size: 2rem;
+}
 .components-list {
     margin-top: 6rem;
 }
@@ -57,11 +62,22 @@ li {
 li:hover {
     margin-left: 30px;
 }
-h3 {
+h2, h3 {
     text-align: center;
+}
+h2 {
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 480px) {
+    nav {
+        height: 80px;
+        font-size: 24px;
+        margin-left: -8%;
+    }
+    .nav-title i {
+        font-size: 24px;
+    }
     ul {
         margin-top: 1rem;
         font-size: 1.1rem;
