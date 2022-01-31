@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./documentation.css">
+    <link rel="stylesheet" href="../component.css">
     <link rel="stylesheet" href="../css/all.min.css">
     <title>Document</title>
 </head>
@@ -23,7 +24,7 @@
         <button id="toggle-btn">^</button>
         <ul>
             <li><a href="#avatar-div">Avatar</a></li>
-            <li><a href="#">Alert</a></li>
+            <li><a href="#alert-div">Alert</a></li>
             <li><a href="#">Badge</a></li>
             <li><a href="#">Button</a></li>
             <li><a href="#">Card</a></li>
@@ -32,9 +33,9 @@
         </ul>
     </div>
     <div class="components">
-        <div id="avatar-div">
+        <div class="component-container" id="avatar-div">
             <h1>Avatar</h1>
-            <div class="avatars">
+            <div class="ui-component avatars">
                 <i class="avatar fas fa-user-circle"></i>
                 <div class="avatar avatar-coloured">
                     <p>HP</p>
@@ -43,10 +44,32 @@
                     <img src="../img/peopleAvatar.jpg">
                 </div>
             </div>
-
+            <h3>To use, copy the following code ⬇</h3>
             <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatars%2522%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522avatar%2520fas%2520fa-user-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-coloured%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%2520HP%2520%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-people%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252FpeopleAvatar.jpg%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="width: 100%; height: 321px; border:0; transform: scale(1); overflow:hidden;"
+            style="width: 100%; height: 350px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <div class="component-container" id="alert-div">
+            <h1>Alert</h1>
+            <div class="ui-component alerts">
+                <div class="alert warning">
+                    ⚠ This is warning
+                </div>
+                <div class="alert danger">
+                    ❌ This is danger
+                </div>
+                <div class="alert success">
+                    ✔ This is success
+                </div>
+            </div>
+
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520alerts%2522%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%259A%25A0%2520This%2520is%2520warning%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%259D%258C%2520This%2520is%2520danger%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%2520%2520%25E2%259C%2594%2520This%2520is%2520success%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 380px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
             </iframe>
         </div>

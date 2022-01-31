@@ -1,0 +1,25 @@
+.alert {
+    flex-basis: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alerts {
+    color: black;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+.warning {
+    background-color: lightyellow;
+    border: solid 2px yellow;
+}
+.danger {
+    background-color: lightcoral;
+    border: solid 2px red;
+}
+.success {
+    background-color: lightgreen;
+    border: solid 2px green;
+}
