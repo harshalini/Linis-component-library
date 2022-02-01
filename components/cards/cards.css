@@ -1,3 +1,11 @@
+:root {
+    --btn-grey: #444444;
+    --white: #fff;
+    --light-white: rgba(255,255,255, 0.7);
+    --light-teal: rgba(0, 255, 170, 0.9);
+    --light-violet: #CCD1E4;
+    --light-grey: #C9CCD5;
+}
 .card {
     box-sizing: border-box;
     display: flex;
@@ -17,7 +25,7 @@
     margin-top: 0;
     position: relative;
 }
-h2 {
+.feature-name {
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
@@ -26,8 +34,8 @@ h2 {
     position: absolute;
     margin-top: 6.8rem;
     margin-left: 1rem;
-    background-color: rgba(255,255,255, 0.7);
-    font-size: 13px;
+    background-color: var(--light-white);
+    font-size: 0.8rem;
     padding: 0 5px;
     font-weight: 500;
 }
@@ -38,7 +46,7 @@ h2 {
 }
 .card-text {
     padding: 0 1rem;
-    color: #444444;
+    color: var(--btn-grey);
 }
 .card-text span {
     margin-bottom: 0.25rem;
@@ -61,11 +69,11 @@ h2 {
 }
 .price p:nth-of-type(2) {
     text-decoration: line-through;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .price p:nth-of-type(3) {
     color: red;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .wishlist {
     position: absolute;
@@ -83,7 +91,7 @@ h2 {
     color: black;
     margin-top: -16.8rem;
     margin-left: 9.5rem;
-    background-color: rgba(0, 255, 170, 0.9);
+    background-color: var(--light-teal);
     padding: 0.3rem;
 }
 /* CARD WITH DISMISS */
@@ -96,9 +104,9 @@ button.dismiss-btn {
     padding: 0;
     font-size: 10px;
     border-radius: 50%;
-    background-color: #444444;
-    color: #fff;
-    border: solid 2px #444444;
+    background-color: var(--btn-grey);
+    color: var(--white);
+    border: solid 2px var(--btn-grey);
     transition: 0.5s ease;
     font-weight: 700;
 }
@@ -106,9 +114,9 @@ button.dismiss-btn {
     width: 4rem;
     margin-left: 9.7rem;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-right: 1rem;
-    padding: 0 0rem;
+    padding: 0;
 }
 .dismiss-btn:hover .btn-symbol {
     margin-right: 0.2rem;
@@ -140,7 +148,7 @@ button.dismiss-btn {
     margin-bottom: -1rem;
 }
 .only-text span {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .only-text p {
     margin-top: 0.5rem;
@@ -163,7 +171,7 @@ button.dismiss-btn {
    
 }
 .card-btn:hover {
-    background-color: #CCD1E4;
+    background-color: var(--light-violet);
 }
 
 .icon {
@@ -174,7 +182,7 @@ button.dismiss-btn {
     padding: 0.7rem;
 }
 .icon:hover {
-    background-color: #C9CCD5;
+    background-color: var(--light-grey);
     border-radius: 50%;
 }
 
@@ -191,10 +199,11 @@ button.dismiss-btn {
 .horizontal-card .wishlist {
     margin-top: 5.5rem;
     margin-left: -6rem;
-    font-size: 15px;
+    font-size: 1rem;
 }
 .horizontal-card .card-text {
-    flex-basis: 56%;
+    flex-basis: 61%;
+    padding-right: 0;
 }
 .small-img {
     flex-basis: 43%;
