@@ -27,7 +27,7 @@
             <li><a href="#alert-div">Alert</a></li>
             <li><a href="#badge-div">Badge</a></li>
             <li><a href="#button-div">Button</a></li>
-            <li><a href="#">Card</a></li>
+            <li><a href="#card-div">Card</a></li>
             <li><a href="#">Image</a></li>
             <li><a href="#">Input</a></li>
         </ul>
@@ -129,7 +129,7 @@
 
         <div class="component-container" id="button-div">
             <h1>Button</h1>
-            <h2>Primary & Secondary Button</h2>
+            <h2 class="feature-name">Primary & Secondary Button</h2>
             <div class="ui-component btns">
                 <button id="primary-btn">Primary</button>
                 <button id="secondary-btn">Secondary</button>
@@ -141,7 +141,7 @@
             sandbox="allow-scripts allow-same-origin">
             </iframe>
 
-            <h2>Link Button</h2>
+            <h2 class="feature-name">Link Button</h2>
             <div class="ui-component link-btn">
                 <a href="#" class="a-btn"><button class="btn" id="btn-link">Link</button></a>
             </div>
@@ -152,7 +152,7 @@
             sandbox="allow-scripts allow-same-origin">
             </iframe>
 
-            <h2>Icon Button</h2>
+            <h2 class="feature-name">Icon Button</h2>
             <div class="ui-component icon-btn">
                 <button class="btn"><i class="call-icon fas fa-phone-alt"></i>Call</button>
                 <button class="btn"><i class="bell-icon fas fa-bell"></i></button>
@@ -165,7 +165,7 @@
             sandbox="allow-scripts allow-same-origin">
             </iframe>
 
-            <h2>Floating Action Button</h2>
+            <h2 class="feature-name">Floating Action Button</h2>
             <div class="ui-component fab-btn">
                 <button class="round-btn"><i class="fas fa-plus"></i></button>
                 <button class="round-btn"><i class="fas fa-play"></i></button>
@@ -175,6 +175,152 @@
             <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520fab-btn%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522round-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%2520%250A%2520%2520%253Cbutton%2520class%253D%2522round-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-play%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
             style="width: 100%; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <div class="component-container" id="card-div">
+            <h1>Cards</h1>
+            <h2 class="feature-name">Card With Badge</h2>
+            <div class="ui-component card card-with-badge">
+                <div class="card-image"><img src="../img/product-img.jpg"></div>
+                <div class="top-badge">Bestsellar</div>
+                <div class="ratings">
+                    <p><i class="fas fa-star"></i>4.4 | 6.9k</p>
+                </div>
+                <i class="wishlist fas fa-heart"></i>
+                <div class="card-text">
+                    <span>Anouk</span>
+                    <p>Embroidered Kurta</p>
+                    <div class="price">
+                        <p>Rs.994</p>
+                        <p>Rs.2099</p>
+                        <p>(55% off)</p>
+                    </div>
+                </div>
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522ui-component%2520card%2520card-with-badge%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fproduct-img.jpg%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522top-badge%2522%253EBestsellar%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2509%2509%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E4.4%2520%257C%25206.9k%253C%252Fp%253E%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Ci%2520class%253D%2522wishlist%2520fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%253EAnouk%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cp%253EEmbroidered%2520Kurta%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253ERs.994%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253ERs.2099%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%2855%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+             style="width: 100%; height: 527px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2 class="feature-name">Card With Dismiss</h2>
+            <div class="ui-component card card-with-dismiss">
+                <div class="card-image"><img src="../img/product-img.jpg" alt=""></div>
+                <button class="dismiss-btn"><span class="btn-symbol">X</span></button>
+                <div class="ratings">
+                    <p><i class="fas fa-star"></i>4.4 | 6.9k</p>
+                </div>
+                <i class="wishlist fas fa-heart"></i>
+                <div class="card-text">
+                    <span>Anouk</span>
+                    <p>Embroidered Kurta</p>
+                    <div class="price">
+                        <p>Rs.994</p>
+                        <p>Rs.2099</p>
+                        <p>(55% off)</p>
+                    </div>
+                </div>
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520card%2520card-with-dismiss%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fproduct-img.jpg%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522dismiss-btn%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn-symbol%2522%253EX%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E4.4%2520%257C%25206.9k%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522wishlist%2520fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EAnouk%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cp%253EEmbroidered%2520Kurta%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.994%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.2099%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%2855%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+            style="width: 100%; height: 580px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2 class="feature-name">Card With Text Overlay</h2>
+            <div class="ui-component card card-with-textOverlay">
+                <div class="card-image"><img src="../img/product-img.jpg" class="opaque-image"></div>
+                <div class="ratings">
+                    <p><i class="fas fa-star"></i>4.4 | 6.9k</p>
+                </div>
+                <i class="wishlist fas fa-heart"></i>
+                <div class="card-text overlay-text">
+                    <span>Anouk</span>
+                    <p>Embroidered Kurta</p>
+                    <div class="price">
+                        <p>Rs.994</p>
+                        <p>Rs.2099</p>
+                        <p>(55% off)</p>
+                    </div>
+                </div>
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520card%2520card-with-textOverlay%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fproduct-img.jpg%2522%2520class%253D%2522opaque-image%2522%253E%2520%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E4.4%2520%257C%25206.9k%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522wishlist%2520fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2520overlay-text%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EAnouk%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cp%253EEmbroidered%2520Kurta%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.994%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.2099%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%2855%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            
+            <h2 class="feature-name">Text Only Card</h2>
+            <div class="ui-component card text-only-card">
+                <div class="card-text only-text">
+                    <span>This is text heading</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, quod. Aspernatur reiciendis eos aperiam dolores quisquam dolor placeat ab nesciunt!</p>
+                    <div class="card-actions">
+                        <a href="#" class="card-btn">read</a>
+                        <a href="#" class="card-btn">bookmark</a>
+                        <i class="icon far fa-heart"></i>
+                        <i class="icon fas fa-share-alt"></i>
+                        <i class="icon fas fa-ellipsis-v"></i>
+                    </div>
+                </div>
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520card%2520text-only-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2520only-text%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EThis%2520is%2520text%2520heading%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%252C%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Magnam%252C%2520quod.%2520Aspernatur%2520reiciendis%2520eos%2520aperiam%2520dolores%2520quisquam%2520dolor%2520placeat%2520ab%2520nesciunt%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-btn%2522%253Eread%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-btn%2522%253Ebookmark%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522icon%2520far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522icon%2520fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522icon%2520fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 430px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2 class="feature-name">Horizontal Card</h2>
+            <div class="ui-component card horizontal-card">
+                <div class="card-image"><img src="../img/product-img.jpg" class="small-img"></div>
+                <div class="ratings">
+                    <p><i class="fas fa-star"></i>4.4 | 6.9k</p>
+                </div>
+                <i class="wishlist fas fa-heart"></i>
+                <div class="card-text">
+                    <span>Anouk</span>
+                    <p>Embroidered Kurta</p>
+                    <div class="price">
+                        <p>Rs.994</p>
+                        <p>Rs.2099</p>
+                        <p>(55% off)</p>
+                    </div>
+                </div>
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520card%2520horizontal-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fproduct-img.jpg%2522%2520class%253D%2522small-img%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E4.4%2520%257C%25206.9k%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522wishlist%2520fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EAnouk%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cp%253EEmbroidered%2520Kurta%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.994%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.2099%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%2855%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2 class="feature-name">Card With Shadow</h2>
+            <div class="ui-component card card-with-shadow">
+                <div class="card-image"><img src="../img/product-img.jpg" alt=""></div>
+                <div class="ratings">
+                    <p><i class="fas fa-star"></i>4.4 | 6.9k</p>
+                </div>
+                <i class="wishlist fas fa-heart"></i>
+                <div class="card-text">
+                    <span>Anouk</span>
+                    <p>Embroidered Kurta</p>
+                    <div class="price">
+                        <p>Rs.994</p>
+                        <p>Rs.2099</p>
+                        <p>(55% off)</p>
+                    </div>
+                </div>
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520card%2520card-with-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fproduct-img.jpg%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2520%253Cp%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E4.4%2520%257C%25206.9k%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ci%2520class%253D%2522wishlist%2520fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%253Cspan%253EAnouk%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cp%253EEmbroidered%2520Kurta%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.994%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ERs.2099%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%2855%2525%2520off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
             </iframe>
         </div>
