@@ -1,0 +1,206 @@
+.card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    background-color: #fff;
+    text-align: left;
+    margin: auto;
+    cursor: pointer;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1.5rem;
+}
+.card-image img {
+    height: 14rem;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0;
+    position: relative;
+}
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.ratings {
+    color: black;
+    position: absolute;
+    margin-top: 6.8rem;
+    margin-left: 1rem;
+    background-color: rgba(255,255,255, 0.7);
+    font-size: 13px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+.ratings i {
+    font-size: 10px;
+    color: teal;
+    margin-right: 5px;
+}
+.card-text {
+    padding: 0 1rem;
+    color: #444444;
+}
+.card-text span {
+    margin-bottom: 0.25rem;
+    color: black;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+.price p {
+    margin-right: 0.4rem;
+}
+.price p:nth-of-type(1) {
+    color: black;
+    font-weight: 500;
+}
+.price p:nth-of-type(2) {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.price p:nth-of-type(3) {
+    color: red;
+    font-size: 12px;
+}
+.wishlist {
+    position: absolute;
+    color: lightgrey;
+    margin-left: 11rem;
+    font-size: 1.25rem;
+    margin-top: 8.9rem;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+/*CARD WITH BADGE */
+.top-badge{
+    position: absolute;
+    color: black;
+    margin-top: -16.8rem;
+    margin-left: 9.5rem;
+    background-color: rgba(0, 255, 170, 0.9);
+    padding: 0.3rem;
+}
+/* CARD WITH DISMISS */
+button.dismiss-btn {
+    position: absolute;
+    margin-top: -16.2rem;
+    margin-left: 12.5rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    padding: 0;
+    font-size: 10px;
+    border-radius: 50%;
+    background-color: #444444;
+    color: #fff;
+    border: solid 2px #444444;
+    transition: 0.5s ease;
+    font-weight: 700;
+}
+.dismiss-btn:hover {
+    width: 4rem;
+    margin-left: 9.7rem;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 1rem;
+    padding: 0 0rem;
+}
+.dismiss-btn:hover .btn-symbol {
+    margin-right: 0.2rem;
+}
+.dismiss-btn:hover::after {
+    content: "dismiss";
+}
+/* CARD WITH TEXT OVERLAY */
+.card-with-textOverlay, .horizontal-card {
+    padding-bottom: 0;
+}
+.opaque-image {
+    opacity: 55%;
+}
+.overlay-text {
+    position: absolute;
+    margin-top: 2rem;
+    background: none;
+    height: 10rem;
+    color: black;
+}
+/* CARD WITH ONLY TEXT */
+.text-only-card {
+    width: 18rem;
+}
+.only-text {
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: -1rem;
+}
+.only-text span {
+    font-size: 24px;
+}
+.only-text p {
+    margin-top: 0.5rem;
+}
+.card-actions {
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-btn {
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+   
+}
+.card-btn:hover {
+    background-color: #CCD1E4;
+}
+
+.icon {
+    font-size: larger;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding: 0.7rem;
+}
+.icon:hover {
+    background-color: #C9CCD5;
+    border-radius: 50%;
+}
+
+/* HORIZONTAL CARD */
+.horizontal-card {
+    flex-direction: row;
+    width: 17.9rem;
+    height: 8rem;
+}
+.horizontal-card .ratings {
+    margin-top: 5.7rem;
+    margin-left: 3rem;
+}
+.horizontal-card .wishlist {
+    margin-top: 5.5rem;
+    margin-left: -6rem;
+    font-size: 15px;
+}
+.horizontal-card .card-text {
+    flex-basis: 56%;
+}
+.small-img {
+    flex-basis: 43%;
+}
+
+/* CARD WITH SHADOW */
+.card-with-shadow {
+    box-shadow: 2px 5px 5px 0px palevioletred;   
+}
