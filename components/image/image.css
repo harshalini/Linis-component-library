@@ -1,0 +1,13 @@
+.image {
+    width: 100%;
+    max-width: 17rem;
+    margin-bottom: 1.5rem;
+}
+.circle-img {
+    border-radius: 50%;
+}
+@media screen and (max-width: 480px) {
+    .image {
+        width: 60%;
+    }
+}
