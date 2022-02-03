@@ -1,0 +1,59 @@
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading, .tx, .gr-tx {
+    margin: 0.5rem;
+}
+.medium-text {
+    font-size: 20px;
+}
+.gr-tx {
+    color: darkgray;
+}
+
+.center-text {
+    width: 500px;
+    margin: auto;
+}
+
+/* LISTS */
+.spaced-list, .stacked-list {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.sl-ul li {
+    font-size: 18px;
+    margin: 0.5rem;
+}
+
+.notification-card {
+    display: flex;
+    padding: 0rem 4rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+    border-bottom: solid 1px white;
+  }
+  
+  .details {
+    margin: 0 1.5rem;
+  }
+  
+  .list-img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-size: 1.2rem;
+  }
+  
+  .msg {
+    font-size: 1rem;
+    color: darkgray;
+  }

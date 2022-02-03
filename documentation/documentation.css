@@ -24,12 +24,12 @@ nav {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
-ul {
+.display-components {
     position: absolute;
     list-style: none;
     display: flex;
     flex-direction: column;
-    top: 5rem;
+    top: 4rem;
     height: 100vh;
     padding: 1rem;
     padding-left: 0;
@@ -47,19 +47,19 @@ ul {
     font-size: 1.5rem;
     background-color: var(--white);
     margin-left: 13rem;
-    top: 100px;
+    top: 80px;
 }
 #toggle-btn:hover {
     background-color: rebeccapurple;
 }
-li {
+.display-components li {
     background-color: var(--blue);
     margin-left: 10px;
-    flex-basis: 10%;
+    flex-basis: 8%;
     transition: .5s ease;
     padding-left: 1rem;
 }
-li:hover {
+.display-components li:hover {
     margin-left: 30px;
 }
 h2, h3 {
@@ -78,13 +78,13 @@ h2 {
     .nav-title i {
         font-size: 24px;
     }
-    ul {
+    .display-components {
         margin-top: 1rem;
         font-size: 1.1rem;
         width: 110vw;
         height: 100vh;
     }
-    li {
+    .display-components li {
         flex-basis: 7%;
     }
     #toggle-btn {
