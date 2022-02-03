@@ -1,0 +1,63 @@
+:root {
+    --yellow: #fd4;
+    --glowing-yellow: #fe7;
+    --brown: #952;
+    --light-orange: #FF9F45;
+    --orange: #F76E11;
+    --white: #fff;
+    --gray: #52616B;
+}
+#star-rating-div {
+    margin: auto;
+}
+.star-widget {
+    border: solid 2px var(--white);
+    max-width: 16.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto 1.5rem auto;
+    padding: 1rem 0;
+
+}
+.star-rating {
+    color: var(--white);
+    direction: rtl;
+}
+.star-rating input {
+    display: none;
+}
+.star-rating label {
+    font-size: 1.8rem;
+    color: var(--gray);
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+    color: var(--yellow);
+}
+.star-rating input:checked ~ label {
+    color: var(--glowing-yellow);
+    text-shadow: 0 0 1.25rem var(--brown);
+}
+form textarea {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    outline: none;
+}
+#post-review {
+    width: 100%;
+    height: 1.8rem;
+    background-color: var(--light-orange);
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#post-review:hover {
+    background-color: var(--orange);
+}
