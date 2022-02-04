@@ -1,0 +1,56 @@
+:root {
+    --light-blue: #9AD0EC;
+}
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    margin: 0.5rem 0 1.5rem 0;
+}
+.modal-content {
+    padding: 1rem 1.5rem 0 1.5rem;
+    background-color: var(--white);
+    color: black;
+    visibility: hidden;
+    margin-top: -6rem;
+}
+.modal-header {
+    font-size: 1.4rem;
+    border-bottom: solid 2px darkgray;
+    margin-bottom: 0.5rem;
+}
+.modal-content p {
+    font-size: 1.125rem;
+}
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+button.modal-btn {
+    width: 6.25rem;
+    height: 1.9rem;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    padding: 0;
+    flex-basis: 30%;
+    margin-right: 0;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+}
+.modal-btn:hover, .click-btn:hover {
+    background-color: var(--light-blue);
+    color: black;
+}
+button.click-btn {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 1rem;
+    border: none;
+    margin-top: 3.5rem;
+}
+.click-btn:focus ~ .modal-content {
+    visibility: visible;
+}
