@@ -1,5 +1,8 @@
 :root {
     --light-blue: #9AD0EC;
+    --dark-gray: darkgray;
+    --sub-gray: #444444;
+    --black: #000;
 }
 .modal-container {
     display: flex;
@@ -18,11 +21,12 @@
 }
 .modal-header {
     font-size: 1.4rem;
-    border-bottom: solid 2px darkgray;
+    border-bottom: solid 2px var(--dark-gray);
     margin-bottom: 0.5rem;
 }
 .modal-content p {
     font-size: 1.125rem;
+    color: var(--sub-gray);
 }
 .actions {
     display: flex;
@@ -42,7 +46,7 @@ button.modal-btn {
 }
 .modal-btn:hover, .click-btn:hover {
     background-color: var(--light-blue);
-    color: black;
+    color: var(--black);
 }
 button.click-btn {
     background-color: var(--blue);
