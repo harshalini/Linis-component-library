@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 :root {
     --darker-blue:  #0D1117;
     --dark-blue: #161B22;
@@ -108,18 +109,15 @@ img {
     margin-top: 4.5rem;
     font-style: italic;
 }
-.iframe-container {
-        position: relative;
-    }
 iframe {
     display: block;
-    margin: 20px auto 20px auto;
+    margin: 1.25rem auto 1.25rem auto;
     position: relative;
     z-index: 2;
 }
 #features {
     margin-top: 5.5rem;
-    margin-bottom: 120px;
+    margin-bottom: 7.5rem;
     padding-bottom: 2rem;
 }
 .features-adv {
@@ -151,7 +149,7 @@ footer {
 .social-links {
     display: flex;
     z-index: 5;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     justify-content: center;
     align-items: center;
 }
@@ -162,8 +160,8 @@ footer {
     opacity: 50%;
 }
 footer img {
-    width: 100px;
-   height: 100px;
+    width: 6.25rem;
+   height: 6.25rem;
    margin: auto;
 }
 
@@ -171,15 +169,20 @@ footer img {
 
 @media screen and (max-width:767px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
     nav {
-        height: 80px;
-        font-size: 24px;
+        height: 5rem;
+        font-size: 1.5rem;
         margin-left: -8%;
     }
     .nav-pages {
-        font-size: 18px;
+        font-size: 1.15rem;
+    }
+    .logo-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     header {
         flex-direction: column;
@@ -188,8 +191,8 @@ footer img {
         margin: auto;
     }
     header img {
-        height: 300px;
-        width: 300px;
+        height: 18rem;
+        width: 18rem;
     }
     .home-header .head {
         font-size: 2.5rem;
@@ -197,26 +200,26 @@ footer img {
     .ui-title img {
         width: 25%;
         height: 25%;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
     .home-header p {
-        font-size: 18px;
+        font-size: 1.13rem;
     }
     .container {
-        font-size: 18px;
+        font-size: 1.13rem;
     }
     .features-adv, .features-adv label {
         flex-direction: column;
-        font-size: 18px;
+        font-size: 1.13rem;
         gap: 10px;
     }
     label i {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     footer p {
         flex-basis: 25%;
     }
     .container-links {
-        margin: 20px auto;
+        margin: 1.25rem auto;
     }
 }

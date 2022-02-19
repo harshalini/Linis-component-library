@@ -75,7 +75,7 @@ input[type="password"] {
         width: 15.5rem;
     }
     .validate-success, .validate-error, .icon-input {
-        width: 17.5;  
+        width: 18.5rem;  
     }
     .floating label {
         margin-left: -10rem;

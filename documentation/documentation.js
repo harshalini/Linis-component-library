@@ -6,7 +6,7 @@ toggleBtn.addEventListener("click", ()=> {
     ul.style.transition = ".5s ease";
     if(ul.style.display === "none") {
         ul.style.display = "flex";
-        toggleBtn.style.marginLeft = "13rem";
+        toggleBtn.style.marginLeft = "14.5rem";
         components.style.opacity = "30%";
     }
     else {
