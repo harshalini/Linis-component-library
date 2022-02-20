@@ -14,9 +14,9 @@
 .bg {
     position: absolute;
     background-color: red;
-    margin-left: 30px;
-    height: 15px;
-    width: 15px;
+    margin-left: 1.87rem;
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
     color: #fff;
     font-weight: 500;
@@ -25,18 +25,18 @@
 }
 
 .top {
-    margin-top: -45px;
+    margin-top: -2.8rem;
 }
 .bottom {
-    margin-top: -20px;
-    margin-left: 35px;
+    margin-top: -1.25rem;
+    margin-left: 2.18rem;
 }
 .badge-on-avatar {
     margin-top: -2rem;
 }
 .badge img {
-    height: 55px;
-    width: 55px;
+    height: 3.4rem;
+    width: 3.4rem;
     border-radius: 50%;
 }
 .avatar-bg {
@@ -45,13 +45,13 @@
     border-left: solid 2px var(--white);
 }
 .avatar-bg.top {
-    margin-left: 52px;
-    margin-top: -55px;
+    margin-left: 3.25rem;
+    margin-top: -3.25rem;
     border-bottom: solid 2px var(--white);
     
 }
 .avatar-bg.bottom {
-    margin-left: 40px;
-    margin-top: -20px;
+    margin-left: 2.5rem;
+    margin-top: -1.25rem;
     border-top: solid 2px var(--white);
 }
