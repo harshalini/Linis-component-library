@@ -5,13 +5,15 @@
     --light-teal: rgba(0, 255, 170, 0.9);
     --light-violet: #CCD1E4;
     --light-grey: #C9CCD5;
+    --blueviolet: #8a2be2;
+    --palevioletred: #d87093;
 }
 .card {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     width: 14rem;
-    background-color: #fff;
+    background-color: var(--white);
     text-align: left;
     margin: auto;
     cursor: pointer;
@@ -160,7 +162,7 @@ button.dismiss-btn {
     justify-content: center;
 }
 .card-btn {
-    color: blueviolet;
+    color: var(--blueviolet);
     font-weight: bolder;
     font-size: 15px;
     text-decoration: none;
@@ -211,5 +213,5 @@ button.dismiss-btn {
 
 /* CARD WITH SHADOW */
 .card-with-shadow {
-    box-shadow: 2px 5px 5px 0px palevioletred;   
+    box-shadow: 2px 5px 5px 0px var(--palevioletred);   
 }
