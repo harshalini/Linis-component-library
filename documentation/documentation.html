@@ -21,7 +21,7 @@
         </div>
     </nav>
     <div class="components-list">
-        <button id="toggle-btn">^</button>
+        <button id="toggle-btn"><i class="toggle-icon fas fa-bars"></i></button>
         <ul class="display-components">
             <li><a href="#text-utilities">Text Utilities</a></li>
             <li><a href="#avatar-div">Avatar</a></li>
@@ -34,6 +34,7 @@
             <li><a href="#star-rating-div">Star Rating</a></li>
             <li><a href="#lists-div">Lists</a></li>
             <li><a href="#modal-div">Modal</a></li>
+            <li><a href="#slider-div">Slider</a></li>
         </ul>
     </div>
     <div class="components">
@@ -94,6 +95,7 @@
 
         <div class="component-container" id="avatar-div">
             <h1>Avatar</h1>
+            <p class="component-info">Avatars are user profile pictures</p>
             <div class="ui-component avatars">
                 <i class="avatar fas fa-user-circle"></i>
                 <div class="avatar avatar-coloured">
@@ -113,6 +115,7 @@
 
         <div class="component-container" id="alert-div">
             <h1>Alert</h1>
+            <p class="component-info">An alert displays a short, important message which attracts the user's attention without interrupting the user's task.</p>
             <div class="ui-component alerts">
                 <div class="alert warning">
                     ⚠ This is warning
@@ -135,6 +138,7 @@
 
         <div class="component-container" id="badge-div">
             <h1>Badge</h1>
+            <p class="component-info">Badge is the small indicator on the top right/ bottom right corner of a component</p>
             <h2>Badge on Icon</h2>
             <div class="ui-component badge-on-icon">
                 <div class="badge">
@@ -188,6 +192,7 @@
 
         <div class="component-container" id="button-div">
             <h1>Button</h1>
+            <p class="component-info">On click, button allows user to take actions</p>
             <h2 class="feature-name">Primary & Secondary Button</h2>
             <div class="ui-component btns">
                 <button id="primary-btn">Primary</button>
@@ -240,6 +245,7 @@
 
         <div class="component-container" id="card-div">
             <h1>Cards</h1>
+            <p class="component-info">Card displays brief information about certain subject and contains call to action buttons/links</p>
             <h2 class="feature-name">Card With Badge</h2>
             <div class="ui-component card card-with-badge">
                 <div class="card-image"><img src="../img/product-img.jpg"></div>
@@ -386,6 +392,7 @@
         
         <div class="component-container" id="image-div">
             <h1>Images</h1>
+            <p class="component-info">An image is a a visual representation of something. Responsive image doesn't go outside the available viewport.</p>
             <h2 class="feature-name">Responsive Image</h2>
             <div class="ui-component responsive-image">
                 <img src="../img/flower.jpg" alt="flower" class="image purple-img">
@@ -410,6 +417,7 @@
 
         <div class="component-container" id="input-div">
             <h1>Input</h1>
+            <p class="component-info">An input is used to accept something from the user.</p>
             <h2 class="feature-name">Basic Input</h2>
             <div class="ui-component input basic-input">
                 <label>Enter your name</label>
@@ -458,6 +466,7 @@
 
         <div class="component-container" id="star-rating-div">
             <h1>Star Rating</h1>
+            <p class="component-info">Star rating allows user to rate and to give feedback to a product or service.</p>
             <div class="star-widget">
                 <div class="star-rating">
                     <input type="radio" name="rate" id="star-1">
@@ -486,6 +495,8 @@
 
         <div class="component-container" id="lists-div">
             <h1>Lists</h1>
+            <p class="component-info">List is a number of connected items which can be used in designing notifications.</p>
+            <p class="component-info"></p>
             <h2>Simple List</h2>
             <h3>Unordered list with bullets</h3>
             <div class="ui-component spaced-list">
@@ -540,6 +551,7 @@
 
         <div class="component-container" id="modal-div">
             <h1>Modal</h1>
+            <p class="component-info">Using modal, dialogs, popovers can be created.</p>
             <div class="ui-component modal-container">
                 <button class="click-btn">Click me</button>
                 <div class="modal-content">
@@ -555,6 +567,47 @@
             <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520modal-container%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522click-btn%2522%253EClick%2520me%253C%252Fbutton%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253EDialog%2520body%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%253EDialog%2520subtitle%2520or%2520description%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-btn%2520action-1%2522%253EAction%25201%253C%252Fbutton%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-btn%2520action-2%2522%253EAction%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             style="width: 100%; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <div class="component-container" id="slider-div">
+            <h1>Sliders</h1>
+            <p class="component-info">A slider is a term that refers to a slideshow on a website. An example of a slider can be a revolving carousel that displays products or photos.</p>
+            <h2>Range Slider</h2>
+            <div class="ui-component range-sl-container">
+                <input id="range-ip" type="range" min="300" max="5000">
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520range-sl-container%2522%253E%250A%2520%2520%253Cinput%2520id%253D%2522range-ip%2522%2520type%253D%2522range%2522%2520min%253D%2522300%2522%2520max%253D%25225000%2522%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 230px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2>Image Slider</h2>
+            <div class="ui-component image-sl-container">
+                <div class="slide-images">
+                    <input type="radio" name="slide" id="img1">
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+
+                    <img src="../img/slide-image1.jpg" alt="img1" class="si1">
+                    <img src="../img/slide-image2.jpg" alt="img2" class="si2">
+                    <img src="../img/slide-image3.jpg" alt="img3" class="si3">
+                </div>
+
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                </div>
+            </div>
+
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520image-sl-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522slide-images%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522slide%2522%2520id%253D%2522img1%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522slide%2522%2520id%253D%2522img2%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522slide%2522%2520id%253D%2522img3%2522%253E%250A%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fslide-image1.jpg%2522%2520alt%253D%2522img1%2522%2520class%253D%2522si1%2522%253E%2520%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fslide-image2.jpg%2522%2520alt%253D%2522img2%2522%2520class%253D%2522si2%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fslide-image3.jpg%2522%2520alt%253D%2522img3%2522%2520class%253D%2522si3%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522dots%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522img1%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522img2%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522img3%2522%253E%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 490px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
             </iframe>
         </div>
