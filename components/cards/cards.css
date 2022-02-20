@@ -5,8 +5,8 @@
     --light-teal: rgba(0, 255, 170, 0.9);
     --light-violet: #CCD1E4;
     --light-grey: #C9CCD5;
-    --blueviolet: blueviolet;
-    --palevioletred: palevioletred;
+    --blueviolet: #8a2be2;
+    --palevioletred: #d87093;
 }
 .card {
     box-sizing: border-box;
