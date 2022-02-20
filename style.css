@@ -63,8 +63,8 @@ img {
     margin-top: 1.25rem;
 }
 .home-header {
-    min-width: 250px;
-    margin: 50px 0;
+    min-width: 15.63rem;
+    margin: 3rem 0;
 }
 .home-header p {
     margin: auto 1.8rem;
@@ -73,7 +73,7 @@ img {
 }
 .container-links {
     display: flex;
-    width: 250px;
+    width: 15.63rem;
     justify-content: space-evenly;
     background-color: var(--blue);
     margin: 3rem;

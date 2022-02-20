@@ -62,8 +62,8 @@
 }
 .round-btn {
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    width: 3.5rem;
+    height: 3.5rem;
     background-color: var(--blue);
     color: var(--white);
     border: solid 2px white;
