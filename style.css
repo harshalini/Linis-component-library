@@ -7,6 +7,11 @@
     --white: #fff;
     --btn-border: solid 2px var(--darker-blue);
 }
+.light-theme {
+    --darker-blue: #fff;
+    --white: #0D1117;
+    --dark-blue: #6C63FF;
+}
 * {
     margin: 0;
 }
@@ -19,6 +24,7 @@ body {
     color: var(--white);
     font-size: 16px;
 }
+
 nav {
     background-color: var(--dark-blue);
     font-size: 2rem;
@@ -51,10 +57,17 @@ a {
 .nav-pages a:hover {
     opacity: 50%;
 }
+.ld-btn {
+   background: none;
+   border: none;
+}
+.chmode {
+    font-size: 1.5rem;
+    color: #FEF9EF;
+}
 header {
     display: flex;
     margin: 6.25rem 1.56rem 0 1.56rem;
-    color: var(--white);
     justify-content: space-evenly;
 }
 img {
@@ -176,6 +189,12 @@ footer img {
         font-size: 1.5rem;
         margin-left: -8%;
     }
+    .nav-title {
+        margin-left: 2rem;
+    }
+    .ld-btn {
+        margin-top: -2.5rem;
+    }
     .nav-pages {
         font-size: 1.15rem;
     }
@@ -221,5 +240,10 @@ footer img {
     }
     .container-links {
         margin: 1.25rem auto;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .ld-btn {
+        margin-top: 0;
     }
 }

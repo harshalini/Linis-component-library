@@ -3,6 +3,7 @@
     --dark-gray: darkgray;
     --sub-gray: #444444;
     --black: #000;
+    --white1: #ffff;
 }
 .modal-container {
     display: flex;
@@ -14,7 +15,7 @@
 }
 .modal-content {
     padding: 1rem 1.5rem 0 1.5rem;
-    background-color: var(--white);
+    background-color: var(--white1);
     color: black;
     visibility: hidden;
     margin-top: -6rem;

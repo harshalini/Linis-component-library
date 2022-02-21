@@ -5,6 +5,7 @@
     --dark-blue: #161B22;
     --blue: #6C63FF;
     --white: #fff;
+    --white1: #ffff;
     --btn-border: solid 2px var(--darker-blue);
     --light-blue: #9AD0EC;
 }
@@ -13,6 +14,9 @@ nav {
 }
 .nav-title i {
     font-size: 2rem;
+}
+.chmode.fas {
+    font-size: 1.5rem;
 }
 .components-list {
     margin-top: 6rem;
@@ -47,7 +51,7 @@ nav {
     position: fixed;
     z-index: 8;
     font-size: 1.5rem;
-    background-color: var(--white);
+    background-color: var(--white1);
     margin-left: 14.5rem;
     top: 5rem;
 }

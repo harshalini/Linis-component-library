@@ -51,7 +51,7 @@
     color: var(--white);
 }
 .btn i {
-    color: var(--dark-blue);
+    color: var(--darker-blue);
 }
 .call-icon, .pay-icon {
     font-size: 1.2rem;
