@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    width: 100%;
+    gap: 2%;
+    margin: auto;
+}
+.two-col-grid {
+    grid-template-columns: 1fr 1fr;
+}
+.two-grid-item, .three-grid-item, .multi-grid-item {
+    background-color: var(--white);
+    padding: 30% 0 0 0;
+    font-size: 1.1rem;
+}
+.grid-container {
+    width: 60%;
+    background-color: var(--blue);
+    padding: 1.2rem;
+    margin: 2rem auto 2rem auto;
+}
+
+.three-col-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.multi-col-grid {
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+}
