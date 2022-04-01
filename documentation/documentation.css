@@ -64,7 +64,7 @@ i.toggle-icon {
 .display-components li {
     background-color: var(--blue);
     margin-left: 10px;
-    flex-basis: 6.2%;
+    flex-basis: 5.8%;
     transition: .5s ease;
     padding-left: 1rem;
 }
