@@ -46,3 +46,34 @@ ldBtn.addEventListener('click', () => {
     enableDarkMode(); 
   }
 });
+
+const baselineBtn = document.querySelector(".baseline-btn")
+const leadingBtn = document.querySelector(".leading-btn")
+const baselineSnackbar = document.querySelector(".baseline-snackbar")
+const leadingSnackbar = document.querySelector(".leading-snackbar")
+const closeBtn = document.querySelectorAll(".close-btn")
+baselineSnackbar.style.display = "none"
+leadingSnackbar.style.display = "none"
+baselineBtn.addEventListener("click", () => {
+  baselineSnackbar.style.display = "flex"
+  leadingSnackbar.style.display = "none"
+  setTimeout(() => {
+    baselineSnackbar.style.display = "none"
+  }, 4000)
+})
+leadingBtn.addEventListener("click", () => {
+  leadingSnackbar.style.display = "flex"
+  baselineSnackbar.style.display = "none"
+  setTimeout(() => {
+    leadingSnackbar.style.display = "none"
+  }, 4000)
+})
+
+for(let i = 0; i < closeBtn.length; i++) {
+  closeBtn[i].addEventListener("click", () => {
+    if(baselineSnackbar.style.display === "flex")
+      baselineSnackbar.style.display = "none"
+    else if(leadingSnackbar.style.display === "flex")
+      leadingSnackbar.style.display = "none"
+  })
+}

@@ -1,0 +1,65 @@
+:root {
+    --retryBtn-bg : #F0D9FF;
+}
+.snackbar-comp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B2B;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 4.3rem;
+    padding: 0 1rem;
+    z-index: 9;
+}
+.baseline-snackbar {
+    justify-content: center;
+}
+.leading-snackbar {
+    left: 1rem;
+}
+.sb-msg {
+    font-size: 1.2rem;
+}
+.snackbar-btn {
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.snackbar-btn.retry-btn {
+    color: var(--blue);
+    padding: 0.5rem;
+    margin-right: -0.5rem;
+    border-radius: 10px;
+}
+.snackbar-btn.close-btn {
+    color: var(--white);
+    border-radius: 50%;
+    padding: 0.5rem;
+    height: 35px;
+    width: 35px;
+    margin-right: -0.2rem;
+}
+.snackbar-btn.retry-btn:hover {
+    background-color: var(--retryBtn-bg);
+}
+.snackbar-btn.close-btn:hover {
+    background-color: var(--gray);
+}
+
+@media only screen and (max-width: 480px) {
+    .sb-msg {
+        font-size: 1rem;
+    }
+    .snackbar-comp {
+        padding: 0 0.5rem;
+        height: 3rem;
+    }
+    .leading-snackbar {
+        left: 0.3rem;
+    }
+    .snackbar-btn.retry-btn, .snackbar-btn.close-btn {
+        font-size: 1rem;
+    }
+}

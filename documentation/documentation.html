@@ -36,6 +36,7 @@
             <li><a href="#lists-div">Lists</a></li>
             <li><a href="#modal-div">Modal</a></li>
             <li><a href="#slider-div">Slider</a></li>
+            <li><a href="#snackbar-div">Snackbar</a></li>
             <li><a href="#grid-div">Grid</a></li>
         </ul>
     </div>
@@ -610,6 +611,32 @@
             <iframe
             src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520image-sl-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522slide-images%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522slide%2522%2520id%253D%2522img1%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522slide%2522%2520id%253D%2522img2%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522slide%2522%2520id%253D%2522img3%2522%253E%250A%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fslide-image1.jpg%2522%2520alt%253D%2522img1%2522%2520class%253D%2522si1%2522%253E%2520%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fslide-image2.jpg%2522%2520alt%253D%2522img2%2522%2520class%253D%2522si2%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimg%252Fslide-image3.jpg%2522%2520alt%253D%2522img3%2522%2520class%253D%2522si3%2522%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522dots%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522img1%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522img2%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522img3%2522%253E%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             style="width: 100%; height: 490px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
+        <div class="component-container" id="snackbar-div">
+            <h2>Snackbar</h2>
+            <p class="component-info">Snackbars are used to show a message at the bottom of a screen. This message persists for a few seconds.</p>
+            <p class="component-info">Click on the below buttons to see the snackbars</p>
+            <div class="ui-component snackbar">
+                <button class="baseline-btn" id="primary-btn">Baseline</button>
+                <button class="leading-btn" id="primary-btn">Leading</button>
+                <div class="snackbar-comp baseline-snackbar">
+                    <p class="sb-msg">Something went wrong!</p>
+                    <button class="snackbar-btn retry-btn">Retry</button>
+                    <button class="snackbar-btn close-btn">X</button>
+                </div>
+                <div class="snackbar-comp leading-snackbar">
+                    <p class="sb-msg">Something went wrong!</p>
+                    <button class="snackbar-btn retry-btn">Retry</button>
+                    <button class="snackbar-btn close-btn">X</button>
+                </div>
+            </div>
+            <h3>To use, copy the following code ⬇</h3>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=54px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522ui-component%2520snackbar%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522baseline-btn%2522%2520id%253D%2522primary-btn%2522%253EBaseline%253C%252Fbutton%253E%2520%250A%2520%2520%253Cbutton%2520class%253D%2522leading-btn%2522%2520id%253D%2522primary-btn%2522%253ELeading%253C%252Fbutton%253E%250A%2520%2520%250A%2520%2520%252F%252FBaseline%2520snackbar%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-comp%2520baseline-snackbar%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522sb-msg%2522%253ESomething%2520went%2520wrong%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-btn%2520retry-btn%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-btn%2520close-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%250A%2520%2520%252F%252FLeading%2520snackbar%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-comp%2520leading-snackbar%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522sb-msg%2522%253ESomething%2520went%2520wrong%21%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-btn%2520retry-btn%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-btn%2520close-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 100%; height: 500px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
             </iframe>
         </div>
